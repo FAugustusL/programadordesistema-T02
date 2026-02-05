@@ -1,0 +1,14 @@
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\CLASSES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\CLASSES.AssemblyInfoInputs.cache
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\CLASSES.AssemblyInfo.cs
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\CLASSES.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\CLASSES\bin\Debug\net8.0\CLASSES.exe
+C:\Users\funher.asleite\source\repos\CLASSES\bin\Debug\net8.0\CLASSES.deps.json
+C:\Users\funher.asleite\source\repos\CLASSES\bin\Debug\net8.0\CLASSES.runtimeconfig.json
+C:\Users\funher.asleite\source\repos\CLASSES\bin\Debug\net8.0\CLASSES.dll
+C:\Users\funher.asleite\source\repos\CLASSES\bin\Debug\net8.0\CLASSES.pdb
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\CLASSES.dll
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\refint\CLASSES.dll
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\CLASSES.pdb
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\CLASSES.genruntimeconfig.cache
+C:\Users\funher.asleite\source\repos\CLASSES\obj\Debug\net8.0\ref\CLASSES.dll

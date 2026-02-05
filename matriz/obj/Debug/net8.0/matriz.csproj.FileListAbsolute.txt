@@ -1,0 +1,14 @@
+C:\Users\funher.asleite\source\repos\matriz\bin\Debug\net8.0\matriz.exe
+C:\Users\funher.asleite\source\repos\matriz\bin\Debug\net8.0\matriz.deps.json
+C:\Users\funher.asleite\source\repos\matriz\bin\Debug\net8.0\matriz.runtimeconfig.json
+C:\Users\funher.asleite\source\repos\matriz\bin\Debug\net8.0\matriz.dll
+C:\Users\funher.asleite\source\repos\matriz\bin\Debug\net8.0\matriz.pdb
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\matriz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\matriz.AssemblyInfoInputs.cache
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\matriz.AssemblyInfo.cs
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\matriz.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\matriz.dll
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\refint\matriz.dll
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\matriz.pdb
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\matriz.genruntimeconfig.cache
+C:\Users\funher.asleite\source\repos\matriz\obj\Debug\net8.0\ref\matriz.dll
