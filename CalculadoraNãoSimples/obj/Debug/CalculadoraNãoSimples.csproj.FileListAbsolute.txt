@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\bin\Debug\CalculadoraNãoSimples.exe.config
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\bin\Debug\CalculadoraNãoSimples.exe
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\bin\Debug\CalculadoraNãoSimples.pdb
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\obj\Debug\CalculadoraNãoSimples.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\obj\Debug\CalculadoraNãoSimples.frmCalculadora.resources
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\obj\Debug\CalculadoraNãoSimples.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\obj\Debug\CalculadoraNãoSimples.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\obj\Debug\CalculadoraNãoSimples.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\obj\Debug\CalculadoraNãoSimples.exe
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\obj\Debug\CalculadoraNãoSimples.pdb
+C:\Users\funher.asleite\source\repos\CalculadoraNãoSimples\obj\Debug\CalculadoraNãoSimples.exe.config
