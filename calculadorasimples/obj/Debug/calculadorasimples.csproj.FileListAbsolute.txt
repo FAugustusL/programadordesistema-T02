@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\calculadorasimples\bin\Debug\calculadorasimples.exe.config
+C:\Users\funher.asleite\source\repos\calculadorasimples\bin\Debug\calculadorasimples.exe
+C:\Users\funher.asleite\source\repos\calculadorasimples\bin\Debug\calculadorasimples.pdb
+C:\Users\funher.asleite\source\repos\calculadorasimples\obj\Debug\calculadorasimples.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\calculadorasimples\obj\Debug\calculadorasimples.frmCalculadoraSimpes.resources
+C:\Users\funher.asleite\source\repos\calculadorasimples\obj\Debug\calculadorasimples.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\calculadorasimples\obj\Debug\calculadorasimples.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\calculadorasimples\obj\Debug\calculadorasimples.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\calculadorasimples\obj\Debug\calculadorasimples.exe
+C:\Users\funher.asleite\source\repos\calculadorasimples\obj\Debug\calculadorasimples.pdb
+C:\Users\funher.asleite\source\repos\calculadorasimples\obj\Debug\calculadorasimples.exe.config
