@@ -138,7 +138,7 @@
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(75, 70);
             this.btnMultiplicar.TabIndex = 14;
-            this.btnMultiplicar.Text = "*";
+            this.btnMultiplicar.Text = "x";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
             this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
@@ -334,6 +334,7 @@
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.btnVirgula);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.MaximizeBox = false;
             this.Name = "frmCalculadora";
             this.Text = "Calculadora";
             this.pnlOperaces.ResumeLayout(false);

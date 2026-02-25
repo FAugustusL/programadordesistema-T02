@@ -100,7 +100,7 @@ namespace CalculadoraNãoSimples
             OperaçaoSelecionada = Operaçao.multiplicacao;
             Valor = Convert.ToDecimal(txtResultado.Text);
             txtResultado.Text = " ";
-            lblSinal.Text = "*";
+            lblSinal.Text = "x";
         }
 
         private void btnDividir_Click(object sender, EventArgs e)
