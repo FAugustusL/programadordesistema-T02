@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\verificacaodeitens\obj\Debug\verificacaodeitens.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\verificacaodeitens\obj\Debug\verificacaodeitens.frmVerEstoque.resources
+C:\Users\funher.asleite\source\repos\verificacaodeitens\obj\Debug\verificacaodeitens.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\verificacaodeitens\obj\Debug\verificacaodeitens.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\verificacaodeitens\obj\Debug\verificacaodeitens.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\verificacaodeitens\bin\Debug\verificacaodeitens.exe.config
+C:\Users\funher.asleite\source\repos\verificacaodeitens\bin\Debug\verificacaodeitens.exe
+C:\Users\funher.asleite\source\repos\verificacaodeitens\bin\Debug\verificacaodeitens.pdb
+C:\Users\funher.asleite\source\repos\verificacaodeitens\obj\Debug\verificacaodeitens.exe
+C:\Users\funher.asleite\source\repos\verificacaodeitens\obj\Debug\verificacaodeitens.pdb
+C:\Users\funher.asleite\source\repos\verificacaodeitens\obj\Debug\verificacaodeitens.exe.config

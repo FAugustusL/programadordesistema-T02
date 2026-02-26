@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\diasdasemana\bin\Debug\diasdasemana.exe.config
+C:\Users\funher.asleite\source\repos\diasdasemana\bin\Debug\diasdasemana.exe
+C:\Users\funher.asleite\source\repos\diasdasemana\bin\Debug\diasdasemana.pdb
+C:\Users\funher.asleite\source\repos\diasdasemana\obj\Debug\diasdasemana.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\diasdasemana\obj\Debug\diasdasemana.frmDiasDaSemana.resources
+C:\Users\funher.asleite\source\repos\diasdasemana\obj\Debug\diasdasemana.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\diasdasemana\obj\Debug\diasdasemana.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\diasdasemana\obj\Debug\diasdasemana.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\diasdasemana\obj\Debug\diasdasemana.exe
+C:\Users\funher.asleite\source\repos\diasdasemana\obj\Debug\diasdasemana.pdb
+C:\Users\funher.asleite\source\repos\diasdasemana\obj\Debug\diasdasemana.exe.config
