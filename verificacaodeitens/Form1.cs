@@ -13,6 +13,7 @@ namespace verificacaodeitens
 {
     public partial class frmVerEstoque : Form
     {
+        private readonly Dictionary<string, int> estoque = new Dictionary<string, int>();
         public frmVerEstoque()
         {
             InitializeComponent();
@@ -20,7 +21,6 @@ namespace verificacaodeitens
 
         private void btnVerificar_MouseClick(object sender, MouseEventArgs e)
         {
-
 
             if (string.IsNullOrWhiteSpace(txtCodigo.Text))
             {

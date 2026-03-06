@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\SistemadeLogin\bin\Debug\SistemadeLogin.exe.config
+C:\Users\funher.asleite\source\repos\SistemadeLogin\bin\Debug\SistemadeLogin.exe
+C:\Users\funher.asleite\source\repos\SistemadeLogin\bin\Debug\SistemadeLogin.pdb
+C:\Users\funher.asleite\source\repos\SistemadeLogin\obj\Debug\SistemadeLogin.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\SistemadeLogin\obj\Debug\SistemadeLogin.frmTeladeLogin.resources
+C:\Users\funher.asleite\source\repos\SistemadeLogin\obj\Debug\SistemadeLogin.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\SistemadeLogin\obj\Debug\SistemadeLogin.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\SistemadeLogin\obj\Debug\SistemadeLogin.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\SistemadeLogin\obj\Debug\SistemadeLogin.exe
+C:\Users\funher.asleite\source\repos\SistemadeLogin\obj\Debug\SistemadeLogin.pdb
+C:\Users\funher.asleite\source\repos\SistemadeLogin\obj\Debug\SistemadeLogin.exe.config

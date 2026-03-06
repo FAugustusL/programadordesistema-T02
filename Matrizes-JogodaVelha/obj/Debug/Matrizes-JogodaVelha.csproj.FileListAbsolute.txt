@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\bin\Debug\Matrizes-JogodaVelha.exe.config
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\bin\Debug\Matrizes-JogodaVelha.exe
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\bin\Debug\Matrizes-JogodaVelha.pdb
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\obj\Debug\Matrizes-JogodaVelha.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\obj\Debug\Matrizes_JogodaVelha.frmJogoDaVelha.resources
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\obj\Debug\Matrizes_JogodaVelha.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\obj\Debug\Matrizes-JogodaVelha.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\obj\Debug\Matrizes-JogodaVelha.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\obj\Debug\Matrizes-JogodaVelha.exe
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\obj\Debug\Matrizes-JogodaVelha.pdb
+C:\Users\funher.asleite\source\repos\Matrizes-JogodaVelha\obj\Debug\Matrizes-JogodaVelha.exe.config

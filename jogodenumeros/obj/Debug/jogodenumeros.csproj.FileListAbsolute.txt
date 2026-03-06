@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\jogodenumeros\bin\Debug\jogodenumeros.exe.config
+C:\Users\funher.asleite\source\repos\jogodenumeros\bin\Debug\jogodenumeros.exe
+C:\Users\funher.asleite\source\repos\jogodenumeros\bin\Debug\jogodenumeros.pdb
+C:\Users\funher.asleite\source\repos\jogodenumeros\obj\Debug\jogodenumeros.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\jogodenumeros\obj\Debug\jogodenumeros.frmJogoNumeros.resources
+C:\Users\funher.asleite\source\repos\jogodenumeros\obj\Debug\jogodenumeros.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\jogodenumeros\obj\Debug\jogodenumeros.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\jogodenumeros\obj\Debug\jogodenumeros.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\jogodenumeros\obj\Debug\jogodenumeros.exe
+C:\Users\funher.asleite\source\repos\jogodenumeros\obj\Debug\jogodenumeros.pdb
+C:\Users\funher.asleite\source\repos\jogodenumeros\obj\Debug\jogodenumeros.exe.config
