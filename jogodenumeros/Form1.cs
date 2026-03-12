@@ -13,7 +13,7 @@ namespace jogodenumeros
     public partial class frmJogoNumeros : Form
     {
         int randomNumber;
-        int numeroTentativas = 10;
+        int NumeroTentativas = 10;
         int palpitedoJogador;
         bool jogoGanho = false;
         string dica;
@@ -22,9 +22,6 @@ namespace jogodenumeros
         {
             InitializeComponent();
         }
-
-
-
         private void frmJogoNumeros_Load(object sender, EventArgs e)
         {
             Random random = new Random();
@@ -39,19 +36,37 @@ namespace jogodenumeros
                 txtResultado.Text = "Você já acertou o número! Reinicie o jogo para jogar novamente";
                 return;
             }
-            if (numeroTentativas == 0)
+            if (NumeroTentativas == 0)
             {
+                lblNumerosTentativas.Text = "0";
                 txtResultado.Text = "Você não tem mais tentativas. O jogo acabou";
                 return;
             }
-            if (int.TryParse(txtNumeroInserido.Text, out palpitedoJogador) || palpitedoJogador < 1 || palpitedoJogador > 100)
+            if (!int.TryParse(txtNumeroInserido.Text, out palpitedoJogador) || palpitedoJogador < 1 || palpitedoJogador > 100)
             {
                 txtResultado.Text = "Por favor, insira um número entre 1 e 100";
                 return;
             }
 
-            numeroTentativas--;
-            lblNumerosTentativas.Text = numeroTentativas.ToString();
+            NumeroTentativas--;
+            lblNumerosTentativas.Text = NumeroTentativas.ToString();
+
+            if (palpitedoJogador == randomNumber)
+            {
+                jogoGanho = true;
+                dica = "Parabéns, você acertou!";
+            }
+
+            else if (palpitedoJogador < randomNumber)
+            {
+                dica = "O número que você digitou é menor, digite um número maior";
+            }
+            else
+            {
+                dica = "O número que você digitou é maior, digite um número menor";
+            }
+
+            txtResultado.Text = dica;
         }
     }
 }

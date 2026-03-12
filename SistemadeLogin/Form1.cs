@@ -15,7 +15,7 @@ namespace SistemadeLogin
     public partial class frmTeladeLogin : Form
     {
         private readonly string usuario = "aaa";
-        private readonly string senha = "senha123";
+        private readonly string senha = "123";
         private int TentativasUsadas = 0;
         private const int LimitedeTentativas = 3;
         private bool contaBloqueada = false;
@@ -45,12 +45,6 @@ namespace SistemadeLogin
                 return;
             }
             TentativasUsadas++;
-
-            if (TentativasUsadas >= LimitedeTentativas)
-            {
-                ContaBloqueada();
-                return;
-            }
 
             while (TentativasUsadas >= LimitedeTentativas)
             {
