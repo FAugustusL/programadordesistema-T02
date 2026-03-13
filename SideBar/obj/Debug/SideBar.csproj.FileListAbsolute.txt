@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\SideBar\bin\Debug\SideBar.exe.config
+C:\Users\funher.asleite\source\repos\SideBar\bin\Debug\SideBar.exe
+C:\Users\funher.asleite\source\repos\SideBar\bin\Debug\SideBar.pdb
+C:\Users\funher.asleite\source\repos\SideBar\obj\Debug\SideBar.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\SideBar\obj\Debug\SideBar.frmSideBar.resources
+C:\Users\funher.asleite\source\repos\SideBar\obj\Debug\SideBar.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\SideBar\obj\Debug\SideBar.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\SideBar\obj\Debug\SideBar.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\SideBar\obj\Debug\SideBar.exe
+C:\Users\funher.asleite\source\repos\SideBar\obj\Debug\SideBar.pdb
+C:\Users\funher.asleite\source\repos\SideBar\obj\Debug\SideBar.exe.config

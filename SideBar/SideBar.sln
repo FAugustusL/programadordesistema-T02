@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideBar", "SideBar.csproj", "{09C76305-D7C5-47FE-A30D-2E962E43F8A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09C76305-D7C5-47FE-A30D-2E962E43F8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C76305-D7C5-47FE-A30D-2E962E43F8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C76305-D7C5-47FE-A30D-2E962E43F8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C76305-D7C5-47FE-A30D-2E962E43F8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB105E25-737D-4ABF-8A1D-1566C8122D3F}
+	EndGlobalSection
+EndGlobal
