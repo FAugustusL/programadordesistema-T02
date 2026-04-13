@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\funher.asleite\\source\\repos\\dadosnecessarios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D4AC0D7-8990-4ACB-9B9E-8EE053A790EA}|dadosnecessarios.csproj|c:\\users\\funher.asleite\\source\\repos\\dadosnecessarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D4AC0D7-8990-4ACB-9B9E-8EE053A790EA}|dadosnecessarios.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D4AC0D7-8990-4ACB-9B9E-8EE053A790EA}|dadosnecessarios.csproj|C:\\Users\\funher.asleite\\source\\repos\\dadosnecessarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7D4AC0D7-8990-4ACB-9B9E-8EE053A790EA}|dadosnecessarios.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4AC0D7-8990-4ACB-9B9E-8EE053A790EA}|dadosnecessarios.csproj|c:\\users\\funher.asleite\\source\\repos\\dadosnecessarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4AC0D7-8990-4ACB-9B9E-8EE053A790EA}|dadosnecessarios.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D4AC0D7-8990-4ACB-9B9E-8EE053A790EA}|dadosnecessarios.csproj|C:\\Users\\funher.asleite\\source\\repos\\dadosnecessarios\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,31 +38,33 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAAJUAAAAAAAAAAAAlwKsAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T19:13:38.282Z"
+              "WhenOpened": "2026-02-23T19:13:38.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\funher.asleite\\source\\repos\\dadosnecessarios\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\dadosnecessarios\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAawFwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T19:13:12.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\funher.asleite\\source\\repos\\dadosnecessarios\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\dadosnecessarios\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T19:06:43.472Z"
+              "WhenOpened": "2026-02-23T19:06:43.472Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

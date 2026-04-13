@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|c:\\users\\funher.asleite\\source\\repos\\testando-showhide\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|c:\\users\\funher.asleite\\source\\repos\\testando-showhide\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|c:\\users\\funher.asleite\\source\\repos\\testando-showhide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|c:\\users\\funher.asleite\\source\\repos\\testando-showhide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13769214-4360-4A52-8AE6-BA4E870AE3E7}|Testando-showhide.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T18:18:01.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -59,20 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAD4vycAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T17:51:04.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\funher.asleite\\source\\repos\\Testando-showhide\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
