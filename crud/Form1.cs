@@ -18,6 +18,8 @@ namespace crud
         //conexão com o banco de dados MySQL
         MySqlConnection Conexao;
         string data_source = "datasource=localhost; username=root; password=; database=db_cadastro";
+
+        private int? codigo_cliente = null;
         public frmcadastrodeclientes()
         {
             InitializeComponent();
@@ -67,23 +69,42 @@ namespace crud
 
                 MySqlCommand cmd = new MySqlCommand { Connection = Conexao };
                 cmd.Prepare();
-                cmd.CommandText = "INSERT INTO dadosdocliente(nomecompleto, nomesocial, email, cpf)" + "VALUES(@nomecompleto, @nomesocial, @email, @cpf)";
-                cmd.Parameters.AddWithValue("@nomecompleto", txtNomeCompleto.Text.Trim());
-                cmd.Parameters.AddWithValue("@nomesocial", txtNomeSocial.Text.Trim());
-                cmd.Parameters.AddWithValue("@email", txtEmail.Text.Trim());
-                cmd.Parameters.AddWithValue("@cpf", txtCPF.Text.Trim());
 
-                cmd.ExecuteNonQuery();
+                if (codigo_cliente == null)
+                {
+                    //insert
+                    cmd.CommandText = "INSERT INTO dadosdocliente(nomecompleto, nomesocial, email, cpf)" + "VALUES(@nomecompleto, @nomesocial, @email, @cpf)";
+                    cmd.Parameters.AddWithValue("@nomecompleto", txtNomeCompleto.Text.Trim());
+                    cmd.Parameters.AddWithValue("@nomesocial", txtNomeSocial.Text.Trim());
+                    cmd.Parameters.AddWithValue("@email", txtEmail.Text.Trim());
+                    cmd.Parameters.AddWithValue("@cpf", txtCPF.Text.Trim());
 
-                MessageBox.Show("Contato inserido com Sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    cmd.ExecuteNonQuery();
 
+                    MessageBox.Show("Contato inserido com Sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                //limpa os campos após o sucesso
+                }
+                else
+                {
+                    cmd.CommandText = $"UPDATE `dadosdocliente` SET " + $"nomecompleto = @nomecompleto, " + $"nomesocial = @nomesocial, " +
+                        $"email = @email, " + $"cpf = @cpf " + $"WHERE codigo = @codigo";
 
-                txtNomeCompleto.Text = string.Empty;
-                txtNomeSocial.Text = "";
-                txtEmail.Text = "";
-                txtCPF.Text = "";
+                    cmd.Parameters.AddWithValue("@nomecompleto", txtNomeCompleto.Text.Trim());
+                    cmd.Parameters.AddWithValue("@nomesocial", txtNomeSocial.Text);
+                    cmd.Parameters.AddWithValue("@email", txtEmail.Text.Trim());
+                    cmd.Parameters.AddWithValue("@cpf", cpf);
+                    cmd.Parameters.AddWithValue("@codigo", codigo_cliente);
+    
+                    cmd.ExecuteNonQuery();
+
+              
+                    MessageBox.Show($"Os dados com o código {codigo_cliente} foram alterados com Sucesso!",
+                     "Sucesso",
+                     MessageBoxButtons.OK,
+                     MessageBoxIcon.Information);
+                }
+
+                limpar_formulario();
 
                 //recarrega os clientes na listview
                 carregar_clientes();
@@ -168,6 +189,7 @@ namespace crud
 
                     //adiciona a linha ao listview
                     lstCliente.Items.Add(new ListViewItem(row));
+
                 }
             }
             catch (MySqlException ex)
@@ -197,5 +219,126 @@ namespace crud
             string query = "SELECT * FROM dadosdocliente ORDER BY codigo DESC";
             carregar_clientes_com_query(query);
                 }
+
+        private void lstCliente_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
+        {
+            //obtem a coloeçao de itens selecionados
+            ListView.SelectedListViewItemCollection clientedaselecao = lstCliente.SelectedItems;
+
+            //percorre todos os itens selecionados 
+            foreach(ListViewItem Item in clientedaselecao)
+            {
+                codigo_cliente = Convert.ToInt32(Item.SubItems[0].Text);
+
+                MessageBox.Show("Código do Cliente: " + codigo_cliente.ToString(),
+                      "codigo selecionado",
+                       MessageBoxButtons.OK,
+                      MessageBoxIcon.Information);
+                //preeenche os campios de texto com os dados do cliente
+                txtNomeCompleto.Text = Item.SubItems[1].Text;
+                txtNomeSocial.Text = Item.SubItems[2].Text;
+                txtEmail.Text = Item.SubItems[3].Text;
+                txtCPF.Text = Item.SubItems[4].Text;
+
+                btnExcluirCliente.Visible = true;
+
+            }
+        }
+
+        private void btnNovoCadastro_Click(object sender, EventArgs e)
+        {
+            limpar_formulario();
+            tabControl1.SelectedIndex = 0;
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+            excluir_cliente();
+
+        }
+        
+
+        private void btnExcluirCliente_Click(object sender, EventArgs e)
+        {
+            excluir_cliente();
+        }
+
+        private void excluir_cliente()
+        {
+            try
+            {
+                DialogResult opcaoDigitada = MessageBox.Show("Tem certeza que deseja excluir o registro do código " + codigo_cliente,
+                    "Tem certeza", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (opcaoDigitada == DialogResult.Yes)
+                {
+                    //excluir no banco de dados
+                    Conexao = new MySqlConnection(data_source);
+
+                    Conexao.Open();
+
+                    MySqlCommand cmd = new MySqlCommand();
+
+                    cmd.Connection = Conexao;
+
+                    cmd.Prepare();
+
+                    cmd.CommandText = "DELETE FROM dadosdocliente WHERE codigo = @codigo";
+
+                    cmd.Parameters.AddWithValue("@codigo", codigo_cliente);
+
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Os dados do cliente foram EXCLUÍDOS!",
+                        "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+
+                    carregar_clientes();
+                    
+                    limpar_formulario();
+
+                    tabControl1.SelectedIndex = 1;
+
+                    btnExcluirCliente.Visible = true;
+
+                }
+            }
+
+            catch (MySqlException ex)
+            {
+               
+                MessageBox.Show("Erro " + ex.Number + " ocorreu: " + ex.Message,
+                    "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+             
+                MessageBox.Show("Ocorreu: " + ex.Message,
+                    "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                if (Conexao != null && Conexao.State == ConnectionState.Open)
+                {
+                    Conexao.Close();
+                }
+            }
+        }
+        private void limpar_formulario()
+        {
+            codigo_cliente = null;
+            txtNomeCompleto.Text = string.Empty;
+            txtNomeSocial.Text = "";
+            txtEmail.Text = "";
+            txtCPF.Text = "";
+            txtNomeCompleto.Focus();
+
+            btnExcluirCliente.Visible = false;
+
+        }
+
     }
 }

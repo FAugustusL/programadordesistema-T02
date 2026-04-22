@@ -9,8 +9,6 @@ C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.exe
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.pdb
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.exe.config
-C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.frmRedefinirSenha.resources
-C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.frmCadastro.resources
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\bin\Debug\BouncyCastle.Cryptography.dll
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\bin\Debug\Google.Protobuf.dll
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\bin\Debug\K4os.Compression.LZ4.dll
@@ -42,3 +40,5 @@ C:\Users\funher.asleite\source\repos\teladelogin_ninelives\bin\Debug\System.Nume
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelo.79B68843.Up2Date
+C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.frmResetPassword.resources
+C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.frmRegistration.resources
