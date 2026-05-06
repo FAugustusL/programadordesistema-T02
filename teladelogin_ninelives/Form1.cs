@@ -150,6 +150,13 @@ namespace teladelogin_ninelives
 
                     }
 
+                    if (storedHash == null)
+                    {
+                        MessageBox.Show("The username/email or password is incorrect.");
+                        return;
+                    }
+
+
                     if (VerifyPassword(password, storedHash))
                     {
 
@@ -163,7 +170,7 @@ namespace teladelogin_ninelives
                     }
                     else
                     {
-                        MessageBox.Show("The username or password is incorrect.");
+                        MessageBox.Show("The username/email or password is incorrect.");
                     }
                 }
             }

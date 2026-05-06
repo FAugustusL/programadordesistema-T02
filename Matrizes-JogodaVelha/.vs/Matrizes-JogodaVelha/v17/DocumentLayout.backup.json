@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
@@ -37,8 +41,7 @@
               "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\Matrizes-JogodaVelha\\Properties\\Resources.resx",
               "RelativeToolTip": "Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-03-06T17:18:10.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T17:18:10.421Z"
             },
             {
               "$type": "Document",
@@ -46,9 +49,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\funher.asleite\\source\\repos\\Matrizes-JogodaVelha\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\Matrizes-JogodaVelha\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGIAAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\Matrizes-JogodaVelha\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T17:55:16.788Z",
               "EditorCaption": ""
@@ -59,11 +62,10 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\funher.asleite\\source\\repos\\Matrizes-JogodaVelha\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\Matrizes-JogodaVelha\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\funher.asleite\\source\\repos\\Matrizes-JogodaVelha\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T17:46:52.953Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-05T17:46:52.953Z"
             }
           ]
         }

@@ -47,6 +47,7 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAberto2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAberto1)).BeginInit();
@@ -57,6 +58,7 @@
             // 
             this.panel1.AutoSize = true;
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.picAberto2);
             this.panel1.Controls.Add(this.picAberto1);
             this.panel1.Controls.Add(this.lblIrLogin);
@@ -77,16 +79,16 @@
             this.panel1.Controls.Add(this.txtName);
             this.panel1.Location = new System.Drawing.Point(526, 287);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(850, 416);
+            this.panel1.Size = new System.Drawing.Size(850, 379);
             this.panel1.TabIndex = 0;
             // 
             // picAberto2
             // 
             this.picAberto2.BackColor = System.Drawing.Color.White;
             this.picAberto2.Image = global::teladelogin_ninelives.Properties.Resources.visibility_off_24dp_000000_FILL0_wght400_GRAD0_opsz24;
-            this.picAberto2.Location = new System.Drawing.Point(577, 283);
+            this.picAberto2.Location = new System.Drawing.Point(576, 283);
             this.picAberto2.Name = "picAberto2";
-            this.picAberto2.Size = new System.Drawing.Size(24, 23);
+            this.picAberto2.Size = new System.Drawing.Size(25, 23);
             this.picAberto2.TabIndex = 23;
             this.picAberto2.TabStop = false;
             this.picAberto2.Click += new System.EventHandler(this.picAberto2_Click);
@@ -95,9 +97,9 @@
             // 
             this.picAberto1.BackColor = System.Drawing.Color.White;
             this.picAberto1.Image = global::teladelogin_ninelives.Properties.Resources.visibility_off_24dp_000000_FILL0_wght400_GRAD0_opsz24;
-            this.picAberto1.Location = new System.Drawing.Point(826, 283);
+            this.picAberto1.Location = new System.Drawing.Point(822, 283);
             this.picAberto1.Name = "picAberto1";
-            this.picAberto1.Size = new System.Drawing.Size(21, 23);
+            this.picAberto1.Size = new System.Drawing.Size(25, 23);
             this.picAberto1.TabIndex = 22;
             this.picAberto1.TabStop = false;
             this.picAberto1.Click += new System.EventHandler(this.picAberto1_Click);
@@ -152,7 +154,7 @@
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAdd.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(634, 380);
+            this.btnAdd.Location = new System.Drawing.Point(654, 341);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(136, 33);
             this.btnAdd.TabIndex = 13;
@@ -165,9 +167,9 @@
             this.btnRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegister.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegister.Location = new System.Drawing.Point(471, 380);
+            this.btnRegister.Location = new System.Drawing.Point(654, 342);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(130, 33);
+            this.btnRegister.Size = new System.Drawing.Size(136, 33);
             this.btnRegister.TabIndex = 12;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -278,6 +280,15 @@
             this.txtName.Size = new System.Drawing.Size(213, 23);
             this.txtName.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(469, 342);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 34);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -321,7 +332,7 @@
         private System.Windows.Forms.PictureBox picAberto1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox picAberto2;
-
+        private System.Windows.Forms.Button button1;
     }
 
 

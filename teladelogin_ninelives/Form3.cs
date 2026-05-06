@@ -101,9 +101,9 @@ namespace teladelogin_ninelives
 
                 string role = cbRole.Text.Trim();
 
-                if (role != "Administrator" && role != "User")
+                if (role != "Administrator" && role != "Staff")
                 {
-                    MessageBox.Show("Invalid status. Use only Administrator or User.");
+                    MessageBox.Show("Invalid status. Use only Administrator or Staff.");
                     return;
                 }
 
@@ -143,34 +143,8 @@ namespace teladelogin_ninelives
             }
 
         }
-        private void lblShowPassword_Click(object sender, EventArgs e)
-        {
-            if (VisiblePassword)
-            {
-                txtPassword.UseSystemPasswordChar = true;
 
-                VisiblePassword = false;
-            }
-            else
-            {
-                txtPassword.UseSystemPasswordChar = false;
-                VisiblePassword = true;
-            }
-        }
 
-        private void lblShowConfirmPassword_Click(object sender, EventArgs e)
-        {
-            if (VisiblePassword)
-            {
-                txtConfirmPassword.UseSystemPasswordChar = true;
-                VisiblePassword = false;
-            }
-            else
-            {
-                txtConfirmPassword.UseSystemPasswordChar = false;
-                VisibleConfirmPassword = true;
-            }
-        }
 
         private void lblIrLogin_Click(object sender, EventArgs e)
         {
@@ -283,7 +257,7 @@ namespace teladelogin_ninelives
 
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show("Registration was successful.");
+                MessageBox.Show("New Employee added.");
             }
 
             catch (MySqlException ex)
@@ -305,6 +279,11 @@ namespace teladelogin_ninelives
                 }
             }
         }/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

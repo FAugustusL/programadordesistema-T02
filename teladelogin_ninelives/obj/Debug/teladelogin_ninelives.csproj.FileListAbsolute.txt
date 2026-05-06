@@ -42,3 +42,4 @@ C:\Users\funher.asleite\source\repos\teladelogin_ninelives\bin\Debug\System.Thre
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelo.79B68843.Up2Date
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.frmResetPassword.resources
 C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.frmRegistration.resources
+C:\Users\funher.asleite\source\repos\teladelogin_ninelives\obj\Debug\teladelogin_ninelives.frmBundle.resources

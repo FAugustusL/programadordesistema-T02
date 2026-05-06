@@ -29,31 +29,33 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblConfirmsenha = new System.Windows.Forms.Label();
+            this.btnRegistrarnovasenha = new System.Windows.Forms.Button();
+            this.txtNovaSenha = new System.Windows.Forms.TextBox();
+            this.txtConfirmarnovasenha = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnValidarCodigo = new System.Windows.Forms.Button();
+            this.lblCode = new System.Windows.Forms.Label();
+            this.txtCode = new System.Windows.Forms.TextBox();
             this.lblEnterEmail = new System.Windows.Forms.Label();
             this.lblTextConfirmation = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEnter = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.lblConfirmsenha);
+            this.panel1.Controls.Add(this.btnRegistrarnovasenha);
+            this.panel1.Controls.Add(this.txtNovaSenha);
+            this.panel1.Controls.Add(this.txtConfirmarnovasenha);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.btnValidarCodigo);
+            this.panel1.Controls.Add(this.lblCode);
+            this.panel1.Controls.Add(this.txtCode);
             this.panel1.Controls.Add(this.lblEnterEmail);
             this.panel1.Controls.Add(this.lblTextConfirmation);
             this.panel1.Controls.Add(this.txtEmail);
@@ -61,25 +63,104 @@
             this.panel1.Controls.Add(this.btnEnter);
             this.panel1.Location = new System.Drawing.Point(74, 49);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(683, 435);
+            this.panel1.Size = new System.Drawing.Size(791, 435);
             this.panel1.TabIndex = 5;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // textBox1
+            // lblConfirmsenha
             // 
-            this.textBox1.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(204, 128);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(226, 22);
-            this.textBox1.TabIndex = 9;
+            this.lblConfirmsenha.AutoSize = true;
+            this.lblConfirmsenha.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfirmsenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
+            this.lblConfirmsenha.Location = new System.Drawing.Point(211, 306);
+            this.lblConfirmsenha.Name = "lblConfirmsenha";
+            this.lblConfirmsenha.Size = new System.Drawing.Size(0, 16);
+            this.lblConfirmsenha.TabIndex = 17;
+            // 
+            // btnRegistrarnovasenha
+            // 
+            this.btnRegistrarnovasenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(92)))), ((int)(((byte)(44)))));
+            this.btnRegistrarnovasenha.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRegistrarnovasenha.Font = new System.Drawing.Font("Georgia", 9.75F);
+            this.btnRegistrarnovasenha.Location = new System.Drawing.Point(285, 377);
+            this.btnRegistrarnovasenha.Name = "btnRegistrarnovasenha";
+            this.btnRegistrarnovasenha.Size = new System.Drawing.Size(88, 27);
+            this.btnRegistrarnovasenha.TabIndex = 15;
+            this.btnRegistrarnovasenha.Text = "ENTER";
+            this.btnRegistrarnovasenha.UseVisualStyleBackColor = false;
+            this.btnRegistrarnovasenha.Visible = false;
+            this.btnRegistrarnovasenha.Click += new System.EventHandler(this.btnRegistrarnovasenha_Click);
+            // 
+            // txtNovaSenha
+            // 
+            this.txtNovaSenha.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNovaSenha.ForeColor = System.Drawing.Color.Black;
+            this.txtNovaSenha.Location = new System.Drawing.Point(214, 241);
+            this.txtNovaSenha.Name = "txtNovaSenha";
+            this.txtNovaSenha.Size = new System.Drawing.Size(226, 22);
+            this.txtNovaSenha.TabIndex = 14;
+            this.txtNovaSenha.UseSystemPasswordChar = true;
+            this.txtNovaSenha.Visible = false;
+            // 
+            // txtConfirmarnovasenha
+            // 
+            this.txtConfirmarnovasenha.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmarnovasenha.ForeColor = System.Drawing.Color.Black;
+            this.txtConfirmarnovasenha.Location = new System.Drawing.Point(214, 281);
+            this.txtConfirmarnovasenha.Name = "txtConfirmarnovasenha";
+            this.txtConfirmarnovasenha.Size = new System.Drawing.Size(226, 22);
+            this.txtConfirmarnovasenha.TabIndex = 13;
+            this.txtConfirmarnovasenha.UseSystemPasswordChar = true;
+            this.txtConfirmarnovasenha.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
+            this.label2.Location = new System.Drawing.Point(201, 109);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(224, 16);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Enter the code was receive in email";
+            // 
+            // btnValidarCodigo
+            // 
+            this.btnValidarCodigo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(92)))), ((int)(((byte)(44)))));
+            this.btnValidarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnValidarCodigo.Font = new System.Drawing.Font("Georgia", 9.75F);
+            this.btnValidarCodigo.Location = new System.Drawing.Point(475, 123);
+            this.btnValidarCodigo.Name = "btnValidarCodigo";
+            this.btnValidarCodigo.Size = new System.Drawing.Size(88, 27);
+            this.btnValidarCodigo.TabIndex = 11;
+            this.btnValidarCodigo.Text = "ENTER";
+            this.btnValidarCodigo.UseVisualStyleBackColor = false;
+            this.btnValidarCodigo.Click += new System.EventHandler(this.btnValidarCodigo_Click);
+            // 
+            // lblCode
+            // 
+            this.lblCode.AutoSize = true;
+            this.lblCode.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
+            this.lblCode.Location = new System.Drawing.Point(201, 164);
+            this.lblCode.Name = "lblCode";
+            this.lblCode.Size = new System.Drawing.Size(0, 16);
+            this.lblCode.TabIndex = 10;
+            // 
+            // txtCode
+            // 
+            this.txtCode.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCode.ForeColor = System.Drawing.Color.Black;
+            this.txtCode.Location = new System.Drawing.Point(204, 128);
+            this.txtCode.Name = "txtCode";
+            this.txtCode.Size = new System.Drawing.Size(226, 22);
+            this.txtCode.TabIndex = 9;
             // 
             // lblEnterEmail
             // 
             this.lblEnterEmail.AutoSize = true;
             this.lblEnterEmail.Font = new System.Drawing.Font("Georgia", 10.25F);
             this.lblEnterEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
-            this.lblEnterEmail.Location = new System.Drawing.Point(201, 12);
+            this.lblEnterEmail.Location = new System.Drawing.Point(211, 12);
             this.lblEnterEmail.Name = "lblEnterEmail";
             this.lblEnterEmail.Size = new System.Drawing.Size(194, 17);
             this.lblEnterEmail.TabIndex = 8;
@@ -88,13 +169,12 @@
             // lblTextConfirmation
             // 
             this.lblTextConfirmation.AutoSize = true;
-            this.lblTextConfirmation.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTextConfirmation.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextConfirmation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
-            this.lblTextConfirmation.Location = new System.Drawing.Point(201, 73);
+            this.lblTextConfirmation.Location = new System.Drawing.Point(201, 60);
             this.lblTextConfirmation.Name = "lblTextConfirmation";
-            this.lblTextConfirmation.Size = new System.Drawing.Size(44, 16);
+            this.lblTextConfirmation.Size = new System.Drawing.Size(0, 16);
             this.lblTextConfirmation.TabIndex = 7;
-            this.lblTextConfirmation.Text = "label1";
             // 
             // txtEmail
             // 
@@ -104,7 +184,6 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(236, 22);
             this.txtEmail.TabIndex = 6;
-            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // pictureBox1
             // 
@@ -127,80 +206,14 @@
             this.btnEnter.TabIndex = 2;
             this.btnEnter.Text = "ENTER";
             this.btnEnter.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
-            this.label1.Location = new System.Drawing.Point(201, 164);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "label1";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(92)))), ((int)(((byte)(44)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Georgia", 9.75F);
-            this.button1.Location = new System.Drawing.Point(475, 123);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 27);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "ENTER";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(167)))), ((int)(((byte)(86)))));
-            this.label2.Location = new System.Drawing.Point(201, 109);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(224, 16);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Enter the code was receive in email";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(214, 304);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(226, 22);
-            this.textBox2.TabIndex = 13;
-            this.textBox2.Visible = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(214, 245);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(226, 22);
-            this.textBox3.TabIndex = 14;
-            this.textBox3.Visible = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(92)))), ((int)(((byte)(44)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Georgia", 9.75F);
-            this.button2.Location = new System.Drawing.Point(285, 355);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 27);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "ENTER";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Visible = false;
+            this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // frmResetPassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(70)))), ((int)(((byte)(50)))));
-            this.ClientSize = new System.Drawing.Size(970, 614);
+            this.ClientSize = new System.Drawing.Size(1012, 614);
             this.Controls.Add(this.panel1);
             this.Name = "frmResetPassword";
             this.Text = "Reset Password";
@@ -219,12 +232,13 @@
         private System.Windows.Forms.Button btnEnter;
         private System.Windows.Forms.Label lblEnterEmail;
         private System.Windows.Forms.Label lblTextConfirmation;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCode;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnValidarCodigo;
+        private System.Windows.Forms.Label lblCode;
+        private System.Windows.Forms.TextBox txtNovaSenha;
+        private System.Windows.Forms.TextBox txtConfirmarnovasenha;
+        private System.Windows.Forms.Button btnRegistrarnovasenha;
+        private System.Windows.Forms.Label lblConfirmsenha;
     }
 }

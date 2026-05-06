@@ -1,0 +1,11 @@
+C:\Users\funher.asleite\source\repos\bundle\bin\Debug\bundle.exe.config
+C:\Users\funher.asleite\source\repos\bundle\bin\Debug\bundle.exe
+C:\Users\funher.asleite\source\repos\bundle\bin\Debug\bundle.pdb
+C:\Users\funher.asleite\source\repos\bundle\obj\Debug\bundle.csproj.AssemblyReference.cache
+C:\Users\funher.asleite\source\repos\bundle\obj\Debug\bundle.Properties.Resources.resources
+C:\Users\funher.asleite\source\repos\bundle\obj\Debug\bundle.csproj.GenerateResource.cache
+C:\Users\funher.asleite\source\repos\bundle\obj\Debug\bundle.csproj.CoreCompileInputs.cache
+C:\Users\funher.asleite\source\repos\bundle\obj\Debug\bundle.exe
+C:\Users\funher.asleite\source\repos\bundle\obj\Debug\bundle.pdb
+C:\Users\funher.asleite\source\repos\bundle\obj\Debug\bundle.exe.config
+C:\Users\funher.asleite\source\repos\bundle\obj\Debug\bundle.frmBundle.resources
